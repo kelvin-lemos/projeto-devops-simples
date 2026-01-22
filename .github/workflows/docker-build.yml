@@ -19,3 +19,6 @@ jobs:
 
     - name: Build Docker
       run: docker build -t meu-app .
+      
+    - name: Executar Container
+      run: docker run meu-app .
