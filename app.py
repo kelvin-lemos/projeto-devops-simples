@@ -1,1 +1,3 @@
-print("Aplicação rodando com sucesso ensinar para Ronaldo como faz docker 🚀")
+import os
+ola = os.getenv("USUARIO_APP", "visitante Desconhecido")
+print("Seja Bem Vindo ao Docker 🚀" + ola)

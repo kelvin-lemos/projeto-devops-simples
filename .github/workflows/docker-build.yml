@@ -21,4 +21,4 @@ jobs:
       run: docker build -t meu-app .
       
     - name: Executar Container
-      run: docker run meu-app
+      run: docker run -e USUARIO_APP=Kelvin meu-app
